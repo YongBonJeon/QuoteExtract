@@ -132,7 +132,7 @@ public class Main {
 
         for (sellUnit sellUnit : sellUnitList) {
             key key = new key(sellUnit.date, sellUnit.company);
-            System.out.println("sellUnit = " + sellUnit);
+            //System.out.println("sellUnit = " + sellUnit);
             influenceMap.put(key, influenceMap.getOrDefault(key, 0) + 1);
         }
 
